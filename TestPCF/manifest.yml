@@ -1,0 +1,13 @@
+applications:
+- name: APM_RPLC
+  path: target/TestPCF-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1024M
+  instances: 1
+  services:
+      - my_postgres_test
+  env:
+      spring_profiles: cloud
+      spring_datasource_driverClassName: org.postgresql.Driver
+      postgres_service_name: my_postgres_test

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: TestPCF
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: rnimje
+Implementation-Vendor-Id: testPCF
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/TestPCF
+Created-By: Maven Integration for Eclipse
+
